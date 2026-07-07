@@ -1,9 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>TrainEventsContracts</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>arabelageorgianafoanene</Authors>
+		<Description>Shared event contracts for TrainRegistry and TrainStatusService</Description>
+		<RepositoryUrl>https://github.com/arabelageorgianafoanene/TrainEventsContracts</RepositoryUrl>
+	</PropertyGroup>
 
 </Project>
