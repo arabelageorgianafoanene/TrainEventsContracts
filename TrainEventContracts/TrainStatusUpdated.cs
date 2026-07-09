@@ -1,7 +1,9 @@
-public class TrainStatusUpdated
+
+namespace TrainEventContracts
 {
-	public string TrainId { get; init; }
-	public TrainStattus OldStatus { get; init; }
-	public string Status { get; init; }
-	public DateTime TrainStatusChangedTime { get; init; }
+	public record TrainStatusUpdated(
+		Guid TrainId,
+		string OldStatus,
+		string Status,
+		DateTime TrainStatusChangedTime);
 }
